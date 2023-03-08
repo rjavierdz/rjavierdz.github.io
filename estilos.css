@@ -1,0 +1,228 @@
+@font-face {
+    font-family: externa;
+    font-style: normal;
+    font-weight: normal;
+    src: url("../img/MyriasWebPro-Condensed.ttf")
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Trebuchet MS" , tahoma
+}
+nav {
+    position: absolute;
+    top: 0px;
+    left: 40px;
+    height: 150px;
+    width: 550px;
+    margin: auto;
+    padding-left: 350px;
+    vertical-align: top;
+}
+nav div.bot_navegacion {
+    height: 90px;
+    width: 120px;
+    margin-right: 10px;
+    float: left;
+    vertical-align: top;
+    cursor: pointer;
+    border-radius: 0px 0px 10px 10px;
+    -moz-border-radius:0px 0px 10px 10px;
+    -webkit-border-radius:0px 0px 10px 10px;
+    cursor: pointer;
+    transition: height .4s;
+    -moz-transition: height .4s;
+    -webkit-transition: height 4s;
+    transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    -webkit-transform: rotate(-15deg);
+}
+nav div.bot_navegacion:hover {
+    height: 100px;
+}
+#boton1 {
+    background: rgba(0,200,0,.5);
+}
+#boton2 {
+    background: rgba(0,100,155,.5);
+}
+#boton3 {
+    background: rgba(0,200,0,.5);
+}
+nav img.icon {
+    background: rgba(255,255,255,.3);
+    margin: auto;
+    margin-top: 10px;
+    padding: 5px;
+    display: block;
+    border: 1px solid rgba(0,0,0,.3);
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    box-shadow: 0px 0px 0px 20px rgba(255,255,255,0);
+    display: block;
+    transition: box-shadow .2s;
+    -moz-transition: box shadow .2s;
+    -webkit-transition: box-shadow .2s;
+}
+nav div.bot_navegacion:hover img {
+    box-shadow: 0px 0px 0px 0px rgba(255,255,255,.5);
+}
+nav p.menutxt {
+    color: black;
+    opacity: .7;
+    margin: auto;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-family: externa, "Trechubet MS", tahoma;
+    transition: padding .4s;
+    -moz-transition: padding .4s;
+    -webkit-transition: padding .4s;
+}
+nav div.bot_navegacion p {
+    padding-top: 10px;
+}
+#logo-ppal {
+    display: none;
+}
+body {
+    background: url("../img/fondo-izq.png") repeat-y,
+        url(../img/fondo-der.png) right repeat-y;
+    margin: auto 60px auto 60px;
+}
+h1,h2,h3 {
+    font-family:  externa, "Trebuchet MS", tahoma;
+}
+h1 {
+    font-size: 2.2em;
+    margin-top: 50px;
+    margin-bottom: 25;
+    text-align: center;
+}
+h2 {
+    font-size: 1.6em;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+ul {
+    margin-left: 25px;
+}
+article {
+    max-width: 900px;
+    margin: auto;
+}
+address {
+    border-top: 3px solid #999999;
+    margin: 50px auto 20px auto;
+    text-align: center;
+    font-size: 1.2em;
+    font-family:  externa , "Trebuchet MS", tahoma;
+}
+section.derechos {
+    font-size: .7em;
+    font-family: tahoma;
+    margin: auto;
+}
+
+aside {
+    background: #006400;
+    width: 360px;
+    height: 260px;
+    color: #f5f5f5;
+    float: right;
+    margin: 0px 0px 15px 15px;
+    padding: 20px;
+    font-weight: bold;
+    border: 3px solid #006400;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+}
+@media screen and (max-width:1000px) {
+    #logo-ppal {
+        display: inline;
+    }
+    #banner-ppal {
+        display: none;
+    }
+    nav {
+        position: absolute;
+        padding-left: 150px;
+    }
+    nav div.bot_navegacion {
+        height: 60px;
+        width: 60px;
+        margin-top: 84px;
+    }
+    nav div.bot_navegacion:hover {
+        height: 60px;
+    }
+    nav p.manutxt {
+        display: none;
+    }
+    aside {
+        background-color: #006400;
+        width: 255px;
+        height: 180px;
+        font-size: .8em;
+        font-family: externa;
+    }
+    aside div.texto {
+        font-family: externa;
+    }
+    aside div.destacado {
+        margin-top: 10px;
+        text-align: center;
+        font-family: externa;        
+    }
+    aside li {
+        font-family: externa;
+        font-size:.8em;
+    }
+}
+
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
